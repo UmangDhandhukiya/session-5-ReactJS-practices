@@ -1,0 +1,12 @@
+// Import the partial without the underscore or extension
+@use 'variable' as v;
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  // This part was already correct!
+  color: v.$primary-color;
+}
